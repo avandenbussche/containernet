@@ -23,7 +23,7 @@ install='sudo apt-get install -y'
 
 echo "*** Installing debian/ubuntu build system"
  $install build-essential devscripts ubuntu-dev-tools debhelper dh-make
- $install diff patch cdbs quilt gnupg fakeroot lintian pbuilder piuparts
+ $install diffutils patch cdbs quilt gnupg fakeroot lintian pbuilder piuparts
  $install module-assistant
 
 echo "*** Installing OVS dependencies"
