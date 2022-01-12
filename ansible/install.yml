@@ -70,8 +70,8 @@
      args:
        chdir: ../
 
-   - name: download 'ubuntu' docker image for Containernet example
-     shell: docker pull ubuntu:trusty
-     tags:
-        - notindocker
-        - nopull
+#   - name: download 'ubuntu' docker image for Containernet example
+#     shell: docker pull ubuntu:trusty
+#     tags:
+#        - notindocker
+#        - nopull
